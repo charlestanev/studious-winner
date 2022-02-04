@@ -1,6 +1,32 @@
+/* Articles Listing Start Here */
+#articlesSection {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 64px 0 calc(64px - 32px) 0;
+}
+
+#articlesSection .title {
+	font-size: 32px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 64px;
+}
+
+/* Articles Listing Start Here */
+.article li {
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	margin-bottom: 32px;
+}
+
+.article li:not(:nth-child(3n + 3)) {
+	margin-right: 4.6%;
+}
+
 /* Article Component Start Here */
 .article {
-	width: 300px;
+	width: 100%;
 }
 
 .article .article__img__wrapper {
@@ -25,7 +51,7 @@
 }
 
 .article .article__desc {
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 300;
 	color: #718096;
 	line-height: 22px;
@@ -35,8 +61,8 @@
 .tag {
 	display: inline-block;
 	margin-bottom: 12px;
-	font-size: 12px;
-	padding: 4px 10px;
+	font-size: 14px;
+	padding: 6px 12px;
 	border-radius: 6px;
 }
 
